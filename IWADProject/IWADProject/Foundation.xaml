@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IWADProject.Foundation">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Image x:Name="imageMain" Aspect="AspectFit">
+                <!-- <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                      NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers> -->
+            </Image>
+
+            <Label Text="Founded by: " Font="Bold" />
+            <Label Text="Tod Swank" />
+            <Label Text="Location: " Font="Bold" />
+            <Label Text="San Diego" />
+            <Label Text="Team:" Font="Bold" />
+            <Label Text="Cole Wilson" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

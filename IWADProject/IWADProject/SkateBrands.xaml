@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:SkateBrands="clr-namespace:IWADProject"
+             x:Class="IWADProject.SkateBrands">
+    <!--Pages can be added as references or inline-->
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="ToolbarItem_Clicked"/>
+    </TabbedPage.ToolbarItems>
+
+    <SkateBrands:Element Title="Element" />
+    <SkateBrands:Deathwish Title="Deathwish" />
+    <SkateBrands:Enjoi Title="Enjoi" />
+    <SkateBrands:Foundation Title="Foundation" />
+    <SkateBrands:Real Title="Real" />
+
+</TabbedPage>
