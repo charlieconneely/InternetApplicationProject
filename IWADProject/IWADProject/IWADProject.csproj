@@ -10,19 +10,69 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\Images\deathwish.jpg" />
-    <None Remove="Assets\Images\element.jpg" />
-    <None Remove="Assets\Images\enjoi.jpg" />
-    <None Remove="Assets\Images\foundation.jpg" />
-    <None Remove="Assets\Images\real.jpg" />
+    <None Remove="Assets\Images\Deathwish\deathwish.jpg" />
+    <None Remove="Assets\Images\Deathwish\jakehayes.jpg" />
+    <None Remove="Assets\Images\Deathwish\jamiefoy.jpg" />
+    <None Remove="Assets\Images\Deathwish\lizardking.jpg" />
+    <None Remove="Assets\Images\Deathwish\neenwilliams.jpg" />
+    <None Remove="Assets\Images\Element\element.jpg" />
+    <None Remove="Assets\Images\Element\evansmith.jpg" />
+    <None Remove="Assets\Images\Element\madarsapse.jpg" />
+    <None Remove="Assets\Images\Element\masonsilva.jpg" />
+    <None Remove="Assets\Images\Element\nyjahhuston.jpg" />
+    <None Remove="Assets\Images\Element\tysonpeterson.jpg" />
+    <None Remove="Assets\Images\Enjoi\benraemers.jpg" />
+    <None Remove="Assets\Images\Enjoi\enjoi.jpg" />
+    <None Remove="Assets\Images\Enjoi\jacksonpilz.jpg" />
+    <None Remove="Assets\Images\Enjoi\louiebarletta.jpg" />
+    <None Remove="Assets\Images\Enjoi\zachwallin.jpg" />
+    <None Remove="Assets\Images\Foundation\aidancampbell.JPG" />
+    <None Remove="Assets\Images\Foundation\colewilson.JPG" />
+    <None Remove="Assets\Images\Foundation\coreyduffel.jpg" />
+    <None Remove="Assets\Images\Foundation\coreyglick.jpg" />
+    <None Remove="Assets\Images\Foundation\dakotaservold.jpg" />
+    <None Remove="Assets\Images\Foundation\foundation.jpg" />
+    <None Remove="Assets\Images\Foundation\joeyragali.jpg" />
+    <None Remove="Assets\Images\Foundation\nickmerlino.jpg" />
+    <None Remove="Assets\Images\Foundation\ryanspencer.jpg" />
+    <None Remove="Assets\Images\Real\ishodwair.jpg" />
+    <None Remove="Assets\Images\Real\kylewalker.jpg" />
+    <None Remove="Assets\Images\Real\real.jpg" />
+    <None Remove="Assets\Images\Real\robbiebrockel.jpg" />
+    <None Remove="Assets\Images\Real\zionwright.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Assets\Images\deathwish.jpg" />
-    <EmbeddedResource Include="Assets\Images\element.jpg" />
-    <EmbeddedResource Include="Assets\Images\enjoi.jpg" />
-    <EmbeddedResource Include="Assets\Images\foundation.jpg" />
-    <EmbeddedResource Include="Assets\Images\real.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\deathwish.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jakehayes.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jamiefoy.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\lizardking.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\neenwilliams.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\element.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\evansmith.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\madarsapse.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\masonsilva.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\nyjahhuston.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\tysonpeterson.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\benraemers.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\enjoi.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\jacksonpilz.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\louiebarletta.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\zachwallin.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\aidancampbell.JPG" />
+    <EmbeddedResource Include="Assets\Images\Foundation\colewilson.JPG" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coreyduffel.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coreyglick.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\dakotaservold.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\foundation.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\joeyragali.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\nickmerlino.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\ryanspencer.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\ishodwair.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\kylewalker.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\real.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\robbiebrockel.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\zionwright.jpg" />
   </ItemGroup>
 
   <ItemGroup>

@@ -2,23 +2,40 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IWADProject.Foundation">
+
     <ContentPage.Content>
-        <StackLayout>
-            
-            <Image x:Name="imageMain" Aspect="AspectFit">
-                <!-- <Image.GestureRecognizers>
+        <ScrollView>
+            <StackLayout>
+
+                <Image x:Name="imageMain" Aspect="AspectFit">
+                    <!-- <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                       NumberOfTapsRequired="1"/>
                 </Image.GestureRecognizers> -->
-            </Image>
+                </Image>
 
-            <Label Text="Founded by: " Font="Bold" />
-            <Label Text="Tod Swank" />
-            <Label Text="Location: " Font="Bold" />
-            <Label Text="San Diego" />
-            <Label Text="Team:" Font="Bold" />
-            <Label Text="Cole Wilson" />
+                <Label Text="Founded by: " Font="Bold" />
+                <Label Text="Tod Swank" />
+                <Label Text="Location: " Font="Bold" />
+                <Label Text="San Diego" />
+                <Label Text="Team:" Font="Bold" />
 
-        </StackLayout>
+                <Image x:Name="fpro1" Aspect="AspectFit" />
+                <Label HorizontalTextAlignment="Center" Text="Cole Wilson" />
+
+                <Image x:Name="fpro2" Aspect="AspectFit" />
+                <Label HorizontalTextAlignment="Center" Text="Aidan Campbell" />
+
+                <Image x:Name="fpro3" Aspect="AspectFit" />
+                <Label HorizontalTextAlignment="Center" Text="Nick Merlino" />
+
+                <Image x:Name="fpro4" Aspect="AspectFit" />
+                <Label HorizontalTextAlignment="Center" Text="Corey Glick" />
+
+                <Image x:Name="fpro5" Aspect="AspectFit" />
+                <Label HorizontalTextAlignment="Center" Text="Dakota Servold" />
+                                
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

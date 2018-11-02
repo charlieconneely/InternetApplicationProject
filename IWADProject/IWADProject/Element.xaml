@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IWADProject.Element">
     <ContentPage.Content>
-        <StackLayout>
+        <ScrollView>
+            <StackLayout>
             
             <Image x:Name="imageMain" Aspect="AspectFit">
                 <!-- <Image.GestureRecognizers>
@@ -11,7 +12,30 @@
                                       NumberOfTapsRequired="1"/>
                 </Image.GestureRecognizers> -->
             </Image>
-            
-        </StackLayout>
+
+            <Label Text="Founded by: " Font="Bold" />
+            <Label Text="Johnny Schillereff" />
+            <Label Text="Location: " Font="Bold" />
+            <Label Text="Costa Mesa, California" />
+            <Label Text="Team:" Font="Bold" />
+
+            <Image x:Name="pro1" Aspect="AspectFit" />
+            <Label HorizontalTextAlignment="Center" Text="Nyjah Huston" />
+
+            <Image x:Name="pro2" Aspect="AspectFit" />
+            <Label HorizontalTextAlignment="Center" Text="Evan Smith" />
+
+            <Image x:Name="pro3" Aspect="AspectFit" />
+            <Label HorizontalTextAlignment="Center" Text="Tyson Peterson" />
+
+            <Image x:Name="pro4" Aspect="AspectFit" />
+            <Label HorizontalTextAlignment="Center" Text="Mason Silva" />
+
+            <Image x:Name="pro5" Aspect="AspectFit" />
+            <Label HorizontalTextAlignment="Center" Text="Madars Apse" />
+
+            </StackLayout>
+        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>

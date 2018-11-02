@@ -24,8 +24,24 @@ namespace IWADProject
             // to do this, need a handle to the resources
             var assembly = typeof(Element);
             // retrieve image from assembly 
-            string myImageName = "IWADProject.Assets.Images.element.jpg";
+            string myImageName = "IWADProject.Assets.Images.Element.element.jpg";
             imageMain.Source = ImageSource.FromResource(myImageName, assembly);
+
+            string firstPro = "IWADProject.Assets.Images.Element.nyjahhuston.jpg";
+            pro1.Source = ImageSource.FromResource(firstPro, assembly);
+
+            string secondPro = "IWADProject.Assets.Images.Element.evansmith.jpg";
+            pro2.Source = ImageSource.FromResource(secondPro, assembly);
+
+            string thirdPro = "IWADProject.Assets.Images.Element.tysonpeterson.jpg";
+            pro3.Source = ImageSource.FromResource(thirdPro, assembly);
+
+            string fourthPro = "IWADProject.Assets.Images.Element.masonsilva.jpg";
+            pro4.Source = ImageSource.FromResource(fourthPro, assembly);
+
+            string fifthPro = "IWADProject.Assets.Images.Element.madarsapse.jpg";
+            pro5.Source = ImageSource.FromResource(fifthPro, assembly);
+
         }
     }
 }
