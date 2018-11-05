@@ -43,5 +43,31 @@ namespace IWADProject
             pro5.Source = ImageSource.FromResource(fifthPro, assembly);
 
         }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            var assembly = typeof(Foundation);
+
+            if (sender.Equals(pro1))
+            {
+                Navigation.PushAsync(new NyjahHuston());
+            }
+            else if (sender.Equals(pro2))
+            {
+                Navigation.PushAsync(new EvanSmith());
+            }
+            else if (sender.Equals(pro3))
+            {
+                Navigation.PushAsync(new TysonPeterson());
+            }
+            else if (sender.Equals(pro4))
+            {
+                Navigation.PushAsync(new MasonSilva());
+            }
+            else if (sender.Equals(pro5))
+            {
+                Navigation.PushAsync(new MadarsApse());
+            }
+        }
     }
 }

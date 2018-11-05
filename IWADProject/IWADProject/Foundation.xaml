@@ -5,14 +5,9 @@
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout BackgroundColor="Gray">
 
-                <Image x:Name="imageMain" Aspect="AspectFit">
-                    <!-- <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
-                                      NumberOfTapsRequired="1"/>
-                </Image.GestureRecognizers> -->
-                </Image>
+                <Image x:Name="imageMain" Aspect="AspectFit" />
 
                 <Label Text="Founded by: " Font="Bold" />
                 <Label Text="Tod Swank" />
@@ -20,21 +15,43 @@
                 <Label Text="San Diego" />
                 <Label Text="Team:" Font="Bold" />
 
-                <Image x:Name="fpro1" Aspect="AspectFit" />
+                
+                <!-- COLE WILSON -->
+                <Image x:Name="fpro1" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                               NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
                 <Label HorizontalTextAlignment="Center" Text="Cole Wilson" />
 
-                <Image x:Name="fpro2" Aspect="AspectFit" />
+                <!-- AIDAN CAMPBELL -->
+                <Image x:Name="fpro2" Aspect="AspectFit" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                               NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>                    
+                </Image>
                 <Label HorizontalTextAlignment="Center" Text="Aidan Campbell" />
 
-                <Image x:Name="fpro3" Aspect="AspectFit" />
+                <!-- NICK MERLINO -->
+                <Image x:Name="fpro3" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                               NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
                 <Label HorizontalTextAlignment="Center" Text="Nick Merlino" />
 
-                <Image x:Name="fpro4" Aspect="AspectFit" />
+                <!-- COREY GLICK -->
+                <Image x:Name="fpro4" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                               NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
                 <Label HorizontalTextAlignment="Center" Text="Corey Glick" />
 
-                <Image x:Name="fpro5" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Dakota Servold" />
-                                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

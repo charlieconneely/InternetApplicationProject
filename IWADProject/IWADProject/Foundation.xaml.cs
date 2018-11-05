@@ -39,8 +39,29 @@ namespace IWADProject
             string fourthPro = "IWADProject.Assets.Images.Foundation.coreyglick.jpg";
             fpro4.Source = ImageSource.FromResource(fourthPro, assembly);
 
-            string fifthPro = "IWADProject.Assets.Images.Foundation.dakotaservold.jpg";
-            fpro5.Source = ImageSource.FromResource(fifthPro, assembly);
         }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            var assembly = typeof(Foundation);
+
+            if (sender.Equals(fpro1))
+            {
+                Navigation.PushAsync(new ColeWilson());
+            }
+            else if(sender.Equals(fpro2))
+            {
+                Navigation.PushAsync(new AidanCampbell());
+            }
+            else if (sender.Equals(fpro3))
+            {
+                Navigation.PushAsync(new NickMerlino());
+            }
+            else if (sender.Equals(fpro4))
+            {
+                Navigation.PushAsync(new CoreyGlick());
+            }
+        }
+
     }
 }

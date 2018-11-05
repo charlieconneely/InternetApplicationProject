@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IWADProject.EvanSmith">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="Black">
+                <Label Text="Evan Smith"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                 TextColor="White"/>
+                <Image x:Name="evan1" Aspect="AspectFit" />
+
+                <Label FontSize="25" Text="Born in 1991" TextColor="White"/>
+                <Label FontSize="25" Text="From Orlando" TextColor="White"/>
+
+                <Image x:Name="evan2" Aspect="AspectFit" />
+                <Image x:Name="evan3" Aspect="AspectFit" />
+
+                <Image x:Name="deck" Aspect="AspectFit" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

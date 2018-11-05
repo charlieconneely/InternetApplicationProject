@@ -4,7 +4,7 @@
              x:Class="IWADProject.Element">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout BackgroundColor="Black">
             
             <Image x:Name="imageMain" Aspect="AspectFit">
                 <!-- <Image.GestureRecognizers>
@@ -13,26 +13,56 @@
                 </Image.GestureRecognizers> -->
             </Image>
 
-            <Label Text="Founded by: " Font="Bold" />
-            <Label Text="Johnny Schillereff" />
-            <Label Text="Location: " Font="Bold" />
-            <Label Text="Costa Mesa, California" />
-            <Label Text="Team:" Font="Bold" />
+            <Label Text="Founded by: " Font="Bold" FontAttributes="Bold" TextColor="White"/>
+                <Label Text="Johnny Schillereff" TextColor="White"/>
+                <Label Text="Location: " Font="Bold" FontAttributes="Bold" TextColor="White"/>
+                <Label Text="Costa Mesa, California" TextColor="White"/>
+                <Label Text="Team:" Font="Bold" FontAttributes="Bold" TextColor="White"/>
 
-            <Image x:Name="pro1" Aspect="AspectFit" />
-            <Label HorizontalTextAlignment="Center" Text="Nyjah Huston" />
+            <!-- NYAH HUSTON -->    
+            <Image x:Name="pro1" Aspect="AspectFit" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+            </Image>
+                    <Label HorizontalTextAlignment="Center" Text="Nyjah Huston" FontAttributes="Bold" TextColor="White"/>
 
-            <Image x:Name="pro2" Aspect="AspectFit" />
-            <Label HorizontalTextAlignment="Center" Text="Evan Smith" />
+                <!-- EVAN SMITH -->
+            <Image x:Name="pro2" Aspect="AspectFit" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                        NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label HorizontalTextAlignment="Center" Text="Evan Smith" FontAttributes="Bold" TextColor="White"/>
 
-            <Image x:Name="pro3" Aspect="AspectFit" />
-            <Label HorizontalTextAlignment="Center" Text="Tyson Peterson" />
+                <!-- TYSON PETERSON -->
+            <Image x:Name="pro3" Aspect="AspectFit" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                        NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            <Label HorizontalTextAlignment="Center" Text="Tyson Peterson" FontAttributes="Bold" TextColor="White"/>
 
-            <Image x:Name="pro4" Aspect="AspectFit" />
-            <Label HorizontalTextAlignment="Center" Text="Mason Silva" />
+                <!-- MASON SILVA -->
+            <Image x:Name="pro4" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                        NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            <Label HorizontalTextAlignment="Center" Text="Mason Silva" FontAttributes="Bold" TextColor="White"/>
 
-            <Image x:Name="pro5" Aspect="AspectFit" />
-            <Label HorizontalTextAlignment="Center" Text="Madars Apse" />
+                <!-- MADARS APSE -->
+            <Image x:Name="pro5" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                        NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            <Label HorizontalTextAlignment="Center" Text="Madars Apse" FontAttributes="Bold" TextColor="White"/>
 
             </StackLayout>
         </ScrollView>

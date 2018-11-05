@@ -16,25 +16,55 @@
     <None Remove="Assets\Images\Deathwish\lizardking.jpg" />
     <None Remove="Assets\Images\Deathwish\neenwilliams.jpg" />
     <None Remove="Assets\Images\Element\element.jpg" />
+    <None Remove="Assets\Images\Element\evanProfile\evanDeck.jpg" />
+    <None Remove="Assets\Images\Element\evanProfile\evanSkate1.jpg" />
+    <None Remove="Assets\Images\Element\evanProfile\evanSkate2.jpg" />
+    <None Remove="Assets\Images\Element\evanProfile\evanSkate3.jpg" />
     <None Remove="Assets\Images\Element\evansmith.jpg" />
     <None Remove="Assets\Images\Element\madarsapse.jpg" />
+    <None Remove="Assets\Images\Element\madarsProfile\madarsDeck.jpg" />
+    <None Remove="Assets\Images\Element\madarsProfile\madarsSkate1.jpg" />
+    <None Remove="Assets\Images\Element\madarsProfile\madarsSkate2.jpg" />
+    <None Remove="Assets\Images\Element\madarsProfile\madarsSkate3.jpg" />
+    <None Remove="Assets\Images\Element\masonProfile\masonDeck.jpg" />
+    <None Remove="Assets\Images\Element\masonProfile\masonSkate1.jpeg" />
+    <None Remove="Assets\Images\Element\masonProfile\masonSkate2.jpg" />
+    <None Remove="Assets\Images\Element\masonProfile\masonSkate3.jpg" />
     <None Remove="Assets\Images\Element\masonsilva.jpg" />
     <None Remove="Assets\Images\Element\nyjahhuston.jpg" />
+    <None Remove="Assets\Images\Element\nyjahProfile\nyahSkate2.jpg" />
+    <None Remove="Assets\Images\Element\nyjahProfile\nyjahDeck.jpg" />
+    <None Remove="Assets\Images\Element\nyjahProfile\nyjahSkate1.jpg" />
+    <None Remove="Assets\Images\Element\nyjahProfile\nyjahSkate3.jpg" />
     <None Remove="Assets\Images\Element\tysonpeterson.jpg" />
+    <None Remove="Assets\Images\Element\tysonProfile\tysonDeck.jpg" />
+    <None Remove="Assets\Images\Element\tysonProfile\tysonSkate1.jpg" />
+    <None Remove="Assets\Images\Element\tysonProfile\tysonSkate2.jpg" />
+    <None Remove="Assets\Images\Element\tysonProfile\tysonSkate3.jpg" />
     <None Remove="Assets\Images\Enjoi\benraemers.jpg" />
     <None Remove="Assets\Images\Enjoi\enjoi.jpg" />
     <None Remove="Assets\Images\Enjoi\jacksonpilz.jpg" />
     <None Remove="Assets\Images\Enjoi\louiebarletta.jpg" />
     <None Remove="Assets\Images\Enjoi\zachwallin.jpg" />
     <None Remove="Assets\Images\Foundation\aidancampbell.JPG" />
+    <None Remove="Assets\Images\Foundation\aidanProfile\aidanDeck.jpg" />
+    <None Remove="Assets\Images\Foundation\aidanProfile\aidanSkate1.jpg" />
+    <None Remove="Assets\Images\Foundation\aidanProfile\aidanSkate2.jpg" />
+    <None Remove="Assets\Images\Foundation\coleProfile\coleDecks\coleDeck1.jpg" />
+    <None Remove="Assets\Images\Foundation\coleProfile\coleSkate1.jpg" />
+    <None Remove="Assets\Images\Foundation\coleProfile\coleSkate2.jpg" />
+    <None Remove="Assets\Images\Foundation\coleProfile\coleSkate3.jpg" />
     <None Remove="Assets\Images\Foundation\colewilson.JPG" />
-    <None Remove="Assets\Images\Foundation\coreyduffel.jpg" />
     <None Remove="Assets\Images\Foundation\coreyglick.jpg" />
-    <None Remove="Assets\Images\Foundation\dakotaservold.jpg" />
+    <None Remove="Assets\Images\Foundation\coreyProfile\coreyDeck.jpg" />
+    <None Remove="Assets\Images\Foundation\coreyProfile\coreySkate1.jpg" />
+    <None Remove="Assets\Images\Foundation\coreyProfile\coreySkate2.jpg" />
     <None Remove="Assets\Images\Foundation\foundation.jpg" />
-    <None Remove="Assets\Images\Foundation\joeyragali.jpg" />
     <None Remove="Assets\Images\Foundation\nickmerlino.jpg" />
-    <None Remove="Assets\Images\Foundation\ryanspencer.jpg" />
+    <None Remove="Assets\Images\Foundation\nickProfile\nickdeck.jpg" />
+    <None Remove="Assets\Images\Foundation\nickProfile\nickSkate1.jpg" />
+    <None Remove="Assets\Images\Foundation\nickProfile\nickSkate2.jpg" />
+    <None Remove="Assets\Images\Foundation\nickProfile\nickSkate3.jpg" />
     <None Remove="Assets\Images\Real\ishodwair.jpg" />
     <None Remove="Assets\Images\Real\kylewalker.jpg" />
     <None Remove="Assets\Images\Real\real.jpg" />
@@ -49,25 +79,55 @@
     <EmbeddedResource Include="Assets\Images\Deathwish\lizardking.jpg" />
     <EmbeddedResource Include="Assets\Images\Deathwish\neenwilliams.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\element.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\evanProfile\evanDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\evanProfile\evanSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\evanProfile\evanSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\evanProfile\evanSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\evansmith.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\madarsapse.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\madarsProfile\madarsDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\madarsProfile\madarsSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\madarsProfile\madarsSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\madarsProfile\madarsSkate3.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\masonProfile\masonDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\masonProfile\masonSkate1.jpeg" />
+    <EmbeddedResource Include="Assets\Images\Element\masonProfile\masonSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\masonProfile\masonSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\masonsilva.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\nyjahhuston.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\nyjahProfile\nyahSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\nyjahProfile\nyjahDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\nyjahProfile\nyjahSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\nyjahProfile\nyjahSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\tysonpeterson.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\tysonProfile\tysonDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\tysonProfile\tysonSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\tysonProfile\tysonSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Element\tysonProfile\tysonSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\benraemers.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\enjoi.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\jacksonpilz.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\louiebarletta.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\zachwallin.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\aidancampbell.JPG" />
+    <EmbeddedResource Include="Assets\Images\Foundation\aidanProfile\aidanDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\aidanProfile\aidanSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\aidanProfile\aidanSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coleProfile\coleDecks\coleDeck1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coleProfile\coleSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coleProfile\coleSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coleProfile\coleSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\colewilson.JPG" />
-    <EmbeddedResource Include="Assets\Images\Foundation\coreyduffel.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\coreyglick.jpg" />
-    <EmbeddedResource Include="Assets\Images\Foundation\dakotaservold.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coreyProfile\coreyDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coreyProfile\coreySkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\coreyProfile\coreySkate2.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\foundation.jpg" />
-    <EmbeddedResource Include="Assets\Images\Foundation\joeyragali.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\nickmerlino.jpg" />
-    <EmbeddedResource Include="Assets\Images\Foundation\ryanspencer.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\nickProfile\nickdeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\nickProfile\nickSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\nickProfile\nickSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Foundation\nickProfile\nickSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Real\ishodwair.jpg" />
     <EmbeddedResource Include="Assets\Images\Real\kylewalker.jpg" />
     <EmbeddedResource Include="Assets\Images\Real\real.jpg" />
@@ -80,6 +140,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="AidanCampbell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ColeWilson.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CoreyGlick.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Deathwish.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -89,16 +158,34 @@
     <EmbeddedResource Update="Enjoi.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="EvanSmith.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Foundation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="MadarsApse.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MasonSilva.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="NewItemPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NickMerlino.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NyjahHuston.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Real.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="SkateBrands.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TysonPeterson.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

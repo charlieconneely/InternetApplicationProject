@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IWADProject.NickMerlino">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="Black">
+                <Label Text="Nick Merlino"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                 TextColor="White"/>
+                <Image x:Name="nick1" Aspect="AspectFit" />
+
+                <Label FontSize="25" Text="Born in 1988" TextColor="White"/>
+                <Label FontSize="25" Text="From Atlantic City, New Jersey" TextColor="White"/>
+
+                <Image x:Name="nick2" Aspect="AspectFit" />
+                <Image x:Name="nick3" Aspect="AspectFit" />
+
+                <Image x:Name="deck" Aspect="AspectFit" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
