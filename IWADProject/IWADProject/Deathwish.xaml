@@ -4,7 +4,7 @@
              x:Class="IWADProject.Deathwish">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout x:Name="slMainContent">
+            <StackLayout x:Name="slMainContent" BackgroundColor="Black">
 
                 <Image x:Name="imageMain" Aspect="AspectFit">
                     <!-- <Image.GestureRecognizers>
@@ -13,23 +13,47 @@
                 </Image.GestureRecognizers> -->
                 </Image>
 
-                <Label Text="Founded by: " Font="Bold" />
-                <Label Text="Jim Greco" />
-                <Label Text="Location: " Font="Bold" />
-                <Label Text="North Hollywood, California" />
-                <Label Text="Team:" Font="Bold" />
+                <Label Text="Founded by: " Font="Bold" TextColor="White"/>
+                <Label Text="Jim Greco" TextColor="White" />
+                <Label Text="Location: " Font="Bold" TextColor="White"/>
+                <Label Text="North Hollywood, California" TextColor="White" />
+                <Label Text="Team:" Font="Bold" TextColor="White" />
 
-                <Image x:Name="pro1" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Jamie Foy" />
+                <!-- JAMIE FOY -->
+                <Image x:Name="pro1" Aspect="AspectFit">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Jamie Foy" Font="Bold" TextColor="White"/>
 
-                <Image x:Name="pro2" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Lizard King" />
+                <!-- LIZARD KING -->
+                <Image x:Name="pro2" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Lizard King" Font="Bold" TextColor="White"/>
 
-                <Image x:Name="pro3" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Neen Williams" />
+                <!-- NEEN WILLIAMS -->
+                <Image x:Name="pro3" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>                    
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Neen Williams" Font="Bold" TextColor="White"/>
 
-                <Image x:Name="pro4" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Jake Hayes" />
+                <!-- JAKE HAYES -->
+                <Image x:Name="pro4" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Jake Hayes" Font="Bold" TextColor="White"/>
 
             </StackLayout>
         </ScrollView>

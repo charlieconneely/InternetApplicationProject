@@ -38,7 +38,28 @@ namespace IWADProject
 
             string fourthPro = "IWADProject.Assets.Images.Deathwish.jakehayes.jpg";
             pro4.Source = ImageSource.FromResource(fourthPro, assembly);
+        }
 
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            var assembly = typeof(Deathwish);
+
+            if (sender.Equals(pro1))
+            {
+                Navigation.PushAsync(new JamieFoy());
+            }
+            else if (sender.Equals(pro2))
+            {
+                Navigation.PushAsync(new LizardKing());
+            }
+            else if (sender.Equals(pro3))
+            {
+                Navigation.PushAsync(new NeenWilliams());
+            }
+            else if (sender.Equals(pro4))
+            {
+                Navigation.PushAsync(new JakeHayes());
+            }
         }
     }
 }

@@ -46,7 +46,7 @@ namespace IWADProject
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            var assembly = typeof(Foundation);
+            var assembly = typeof(Element);
 
             if (sender.Equals(pro1))
             {

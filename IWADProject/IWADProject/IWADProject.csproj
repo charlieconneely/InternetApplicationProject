@@ -12,8 +12,24 @@
   <ItemGroup>
     <None Remove="Assets\Images\Deathwish\deathwish.jpg" />
     <None Remove="Assets\Images\Deathwish\jakehayes.jpg" />
+    <None Remove="Assets\Images\Deathwish\jakeProfile\jakeDeck.jpg" />
+    <None Remove="Assets\Images\Deathwish\jakeProfile\jakeSkate1.jpg" />
+    <None Remove="Assets\Images\Deathwish\jakeProfile\jakeSkate2.jpg" />
+    <None Remove="Assets\Images\Deathwish\jakeProfile\jakeSkate3.jpg" />
     <None Remove="Assets\Images\Deathwish\jamiefoy.jpg" />
+    <None Remove="Assets\Images\Deathwish\jamieProfile\jamieDeck.jpg" />
+    <None Remove="Assets\Images\Deathwish\jamieProfile\jamieSkate1.jpg" />
+    <None Remove="Assets\Images\Deathwish\jamieProfile\jamieSkate2.jpg" />
+    <None Remove="Assets\Images\Deathwish\jamieProfile\jamieSkate3.jpg" />
     <None Remove="Assets\Images\Deathwish\lizardking.jpg" />
+    <None Remove="Assets\Images\Deathwish\lizardProfile\lizardDeck.jpg" />
+    <None Remove="Assets\Images\Deathwish\lizardProfile\lizardSkate1.jpg" />
+    <None Remove="Assets\Images\Deathwish\lizardProfile\lizardSkate2.jpg" />
+    <None Remove="Assets\Images\Deathwish\lizardProfile\lizardSkate3.jpg" />
+    <None Remove="Assets\Images\Deathwish\neenProfile\neenDeck.jpg" />
+    <None Remove="Assets\Images\Deathwish\neenProfile\neenSkate1.jpg" />
+    <None Remove="Assets\Images\Deathwish\neenProfile\neenSkate2.jpg" />
+    <None Remove="Assets\Images\Deathwish\neenProfile\neenSkate3.jpg" />
     <None Remove="Assets\Images\Deathwish\neenwilliams.jpg" />
     <None Remove="Assets\Images\Element\element.jpg" />
     <None Remove="Assets\Images\Element\evanProfile\evanDeck.jpg" />
@@ -65,18 +81,50 @@
     <None Remove="Assets\Images\Foundation\nickProfile\nickSkate1.jpg" />
     <None Remove="Assets\Images\Foundation\nickProfile\nickSkate2.jpg" />
     <None Remove="Assets\Images\Foundation\nickProfile\nickSkate3.jpg" />
+    <None Remove="Assets\Images\Real\ishodProfile\ishodDeck.jpg" />
+    <None Remove="Assets\Images\Real\ishodProfile\ishodSkate1.jpg" />
+    <None Remove="Assets\Images\Real\ishodProfile\ishodSkate2.jpg" />
+    <None Remove="Assets\Images\Real\ishodProfile\ishodSkate3.jpg" />
     <None Remove="Assets\Images\Real\ishodwair.jpg" />
+    <None Remove="Assets\Images\Real\kyleProfile\kyleDeck.jpg" />
+    <None Remove="Assets\Images\Real\kyleProfile\kyleSkate1.jpg" />
+    <None Remove="Assets\Images\Real\kyleProfile\kyleSkate2.jpg" />
+    <None Remove="Assets\Images\Real\kyleProfile\kyleSkate3.jpg" />
     <None Remove="Assets\Images\Real\kylewalker.jpg" />
     <None Remove="Assets\Images\Real\real.jpg" />
     <None Remove="Assets\Images\Real\robbiebrockel.jpg" />
+    <None Remove="Assets\Images\Real\robbieProfile\robbieDeck.jpg" />
+    <None Remove="Assets\Images\Real\robbieProfile\robbieSkate1.jpg" />
+    <None Remove="Assets\Images\Real\robbieProfile\robbieSkate2.jpg" />
+    <None Remove="Assets\Images\Real\robbieProfile\robbieSkate3.jpg" />
+    <None Remove="Assets\Images\Real\zionProfile\zionDeck.jpg" />
+    <None Remove="Assets\Images\Real\zionProfile\zionSkate1.jpg" />
+    <None Remove="Assets\Images\Real\zionProfile\zionSkate2.jpg" />
+    <None Remove="Assets\Images\Real\zionProfile\zionSkate3.jpg" />
     <None Remove="Assets\Images\Real\zionwright.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\Deathwish\deathwish.jpg" />
     <EmbeddedResource Include="Assets\Images\Deathwish\jakehayes.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jakeProfile\jakeDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jakeProfile\jakeSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jakeProfile\jakeSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jakeProfile\jakeSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Deathwish\jamiefoy.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jamieProfile\jamieDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jamieProfile\jamieSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jamieProfile\jamieSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\jamieProfile\jamieSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Deathwish\lizardking.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\lizardProfile\lizardDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\lizardProfile\lizardSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\lizardProfile\lizardSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\lizardProfile\lizardSkate3.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\neenProfile\neenDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\neenProfile\neenSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\neenProfile\neenSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Deathwish\neenProfile\neenSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Deathwish\neenwilliams.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\element.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\evanProfile\evanDeck.jpg" />
@@ -128,10 +176,26 @@
     <EmbeddedResource Include="Assets\Images\Foundation\nickProfile\nickSkate1.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\nickProfile\nickSkate2.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\nickProfile\nickSkate3.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\ishodProfile\ishodDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\ishodProfile\ishodSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\ishodProfile\ishodSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\ishodProfile\ishodSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Real\ishodwair.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\kyleProfile\kyleDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\kyleProfile\kyleSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\kyleProfile\kyleSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\kyleProfile\kyleSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Real\kylewalker.jpg" />
     <EmbeddedResource Include="Assets\Images\Real\real.jpg" />
     <EmbeddedResource Include="Assets\Images\Real\robbiebrockel.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\robbieProfile\robbieDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\robbieProfile\robbieSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\robbieProfile\robbieSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\robbieProfile\robbieSkate3.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\zionProfile\zionDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\zionProfile\zionSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\zionProfile\zionSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Real\zionProfile\zionSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Real\zionwright.jpg" />
   </ItemGroup>
 
@@ -164,10 +228,28 @@
     <EmbeddedResource Update="Foundation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="IshodWair.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="JakeHayes.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="JamieFoy.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="KyleWalker.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LizardKing.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="MadarsApse.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MasonSilva.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NeenWilliams.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="NewItemPage.xaml">
@@ -182,10 +264,16 @@
     <EmbeddedResource Update="Real.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="RobbieBrockel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="SkateBrands.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="TysonPeterson.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ZionWright.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
