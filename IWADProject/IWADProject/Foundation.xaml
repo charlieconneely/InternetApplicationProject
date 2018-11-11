@@ -23,7 +23,7 @@
                                                NumberOfTapsRequired="1"/>
                     </Image.GestureRecognizers>
                 </Image>
-                <Label HorizontalTextAlignment="Center" Text="Cole Wilson" />
+                <Label HorizontalTextAlignment="Center" Text="Cole Wilson" Font="Bold"/>
 
                 <!-- AIDAN CAMPBELL -->
                 <Image x:Name="fpro2" Aspect="AspectFit" >
@@ -32,7 +32,7 @@
                                                NumberOfTapsRequired="1"/>
                     </Image.GestureRecognizers>                    
                 </Image>
-                <Label HorizontalTextAlignment="Center" Text="Aidan Campbell" />
+                <Label HorizontalTextAlignment="Center" Text="Aidan Campbell" Font="Bold"/>
 
                 <!-- NICK MERLINO -->
                 <Image x:Name="fpro3" Aspect="AspectFit">
@@ -41,7 +41,7 @@
                                                NumberOfTapsRequired="1"/>
                     </Image.GestureRecognizers>
                 </Image>
-                <Label HorizontalTextAlignment="Center" Text="Nick Merlino" />
+                <Label HorizontalTextAlignment="Center" Text="Nick Merlino" Font="Bold"/>
 
                 <!-- COREY GLICK -->
                 <Image x:Name="fpro4" Aspect="AspectFit">
@@ -50,7 +50,7 @@
                                                NumberOfTapsRequired="1"/>
                     </Image.GestureRecognizers>
                 </Image>
-                <Label HorizontalTextAlignment="Center" Text="Corey Glick" />
+                <Label HorizontalTextAlignment="Center" Text="Corey Glick" Font="Bold"/>
 
             </StackLayout>
         </ScrollView>

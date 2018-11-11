@@ -4,14 +4,9 @@
              x:Class="IWADProject.Enjoi">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout BackgroundColor="Pink">
 
-                <Image x:Name="imageMain" Aspect="AspectFit">
-                    <!-- <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
-                                      NumberOfTapsRequired="1"/>
-                </Image.GestureRecognizers> -->
-                </Image>
+                <Image x:Name="imageMain" Aspect="AspectFit"/>
 
                 <Label Text="Founded by: " Font="Bold" />
                 <Label Text="Marc Johnson" />
@@ -19,17 +14,41 @@
                 <Label Text="Los Angeles" />
                 <Label Text="Team:" Font="Bold" />
 
-                <Image x:Name="pro1" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Louie Barletta" />
+                <!-- LOUIE BARLETTA -->
+                <Image x:Name="pro1" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Louie Barletta" Font="Bold"/>
 
-                <Image x:Name="pro2" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Zach Wallin" />
+                <!-- ZACK WALLIN -->
+                <Image x:Name="pro2" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Zack Wallin" Font="Bold"/>
 
-                <Image x:Name="pro3" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Ben Raemers" />
+                <!-- BEN RAEMERS -->
+                <Image x:Name="pro3" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Ben Raemers" Font="Bold"/>
 
-                <Image x:Name="pro4" Aspect="AspectFit" />
-                <Label HorizontalTextAlignment="Center" Text="Jackson Pilz" />
+                <!-- JACKSON PILZ -->
+                <Image x:Name="pro4" Aspect="AspectFit">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Jackson Pilz" Font="Bold"/>
 
             </StackLayout>
         </ScrollView>

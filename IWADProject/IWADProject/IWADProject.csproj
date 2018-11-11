@@ -57,11 +57,27 @@
     <None Remove="Assets\Images\Element\tysonProfile\tysonSkate1.jpg" />
     <None Remove="Assets\Images\Element\tysonProfile\tysonSkate2.jpg" />
     <None Remove="Assets\Images\Element\tysonProfile\tysonSkate3.jpg" />
+    <None Remove="Assets\Images\Enjoi\benProfile\benDeck.jpg" />
+    <None Remove="Assets\Images\Enjoi\benProfile\benSkate1.jpg" />
+    <None Remove="Assets\Images\Enjoi\benProfile\benSkate2.jpg" />
+    <None Remove="Assets\Images\Enjoi\benProfile\benSkate3.jpg" />
     <None Remove="Assets\Images\Enjoi\benraemers.jpg" />
     <None Remove="Assets\Images\Enjoi\enjoi.jpg" />
     <None Remove="Assets\Images\Enjoi\jacksonpilz.jpg" />
+    <None Remove="Assets\Images\Enjoi\jacksonProfile\jacksonDeck.jpg" />
+    <None Remove="Assets\Images\Enjoi\jacksonProfile\jacksonSkate1.jpg" />
+    <None Remove="Assets\Images\Enjoi\jacksonProfile\jacksonSkate2.jpg" />
+    <None Remove="Assets\Images\Enjoi\jacksonProfile\jacksonSkate3.jpg" />
     <None Remove="Assets\Images\Enjoi\louiebarletta.jpg" />
+    <None Remove="Assets\Images\Enjoi\louieProfile\louieDeck.jpg" />
+    <None Remove="Assets\Images\Enjoi\louieProfile\louieSkate1.jpg" />
+    <None Remove="Assets\Images\Enjoi\louieProfile\louieSkate2.jpg" />
+    <None Remove="Assets\Images\Enjoi\louieProfile\louieSkate3.jpg" />
     <None Remove="Assets\Images\Enjoi\zachwallin.jpg" />
+    <None Remove="Assets\Images\Enjoi\zackProfile\zackDeck.jpg" />
+    <None Remove="Assets\Images\Enjoi\zackProfile\zackSkate1.jpg" />
+    <None Remove="Assets\Images\Enjoi\zackProfile\zackSkate2.jpg" />
+    <None Remove="Assets\Images\Enjoi\zackProfile\zackSkate3.jpg" />
     <None Remove="Assets\Images\Foundation\aidancampbell.JPG" />
     <None Remove="Assets\Images\Foundation\aidanProfile\aidanDeck.jpg" />
     <None Remove="Assets\Images\Foundation\aidanProfile\aidanSkate1.jpg" />
@@ -152,11 +168,27 @@
     <EmbeddedResource Include="Assets\Images\Element\tysonProfile\tysonSkate1.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\tysonProfile\tysonSkate2.jpg" />
     <EmbeddedResource Include="Assets\Images\Element\tysonProfile\tysonSkate3.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\benProfile\benDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\benProfile\benSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\benProfile\benSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\benProfile\benSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\benraemers.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\enjoi.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\jacksonpilz.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\jacksonProfile\jacksonDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\jacksonProfile\jacksonSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\jacksonProfile\jacksonSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\jacksonProfile\jacksonSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\louiebarletta.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\louieProfile\louieDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\louieProfile\louieSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\louieProfile\louieSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\louieProfile\louieSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Enjoi\zachwallin.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\zackProfile\zackDeck.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\zackProfile\zackSkate1.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\zackProfile\zackSkate2.jpg" />
+    <EmbeddedResource Include="Assets\Images\Enjoi\zackProfile\zackSkate3.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\aidancampbell.JPG" />
     <EmbeddedResource Include="Assets\Images\Foundation\aidanProfile\aidanDeck.jpg" />
     <EmbeddedResource Include="Assets\Images\Foundation\aidanProfile\aidanSkate1.jpg" />
@@ -207,6 +239,9 @@
     <EmbeddedResource Update="AidanCampbell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="BenRaemers.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="ColeWilson.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -231,6 +266,9 @@
     <EmbeddedResource Update="IshodWair.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="JacksonPilz.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="JakeHayes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -241,6 +279,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="LizardKing.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LouieBarletta.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MadarsApse.xaml">
@@ -271,6 +312,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="TysonPeterson.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ZackWallin.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ZionWright.xaml">

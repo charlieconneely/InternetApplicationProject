@@ -4,17 +4,16 @@
              x:Class="IWADProject.NickMerlino">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout BackgroundColor="Black">
+            <StackLayout BackgroundColor="Gray">
                 <Label Text="Nick Merlino"
                    FontSize="30"
                    FontAttributes="Bold"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
-                 TextColor="White"/>
+                HorizontalOptions="CenterAndExpand" />
                 <Image x:Name="nick1" Aspect="AspectFit" />
 
-                <Label FontSize="25" Text="Born in 1988" TextColor="White"/>
-                <Label FontSize="25" Text="From Atlantic City, New Jersey" TextColor="White"/>
+                <Label FontSize="25" Text="Born in 1988"/>
+                <Label FontSize="25" Text="From Atlantic City, New Jersey"/>
 
                 <Image x:Name="nick2" Aspect="AspectFit" />
                 <Image x:Name="nick3" Aspect="AspectFit" />

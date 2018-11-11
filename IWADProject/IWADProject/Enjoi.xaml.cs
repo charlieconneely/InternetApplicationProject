@@ -20,8 +20,6 @@ namespace IWADProject
 
         private void SetUpImages()
         {
-            // want to add an image to the imageMain object
-            // to do this, need a handle to the resources
             var assembly = typeof(Enjoi);
             // retrieve image from assembly 
             string myImageName = "IWADProject.Assets.Images.Enjoi.enjoi.jpg";
@@ -38,6 +36,28 @@ namespace IWADProject
 
             string fourthPro = "IWADProject.Assets.Images.Enjoi.jacksonpilz.jpg";
             pro4.Source = ImageSource.FromResource(fourthPro, assembly);
+        }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            var assembly = typeof(Enjoi);
+
+            if (sender.Equals(pro1))
+            {
+                Navigation.PushAsync(new LouieBarletta());
+            }
+            else if (sender.Equals(pro2))
+            {
+                Navigation.PushAsync(new ZackWallin());
+            }
+            else if (sender.Equals(pro3))
+            {
+                Navigation.PushAsync(new BenRaemers());
+            }
+            else if (sender.Equals(pro4))
+            {
+                Navigation.PushAsync(new JacksonPilz());
+            }
         }
     }
 }

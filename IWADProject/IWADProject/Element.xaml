@@ -5,15 +5,10 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout BackgroundColor="Black">
-            
-            <Image x:Name="imageMain" Aspect="AspectFit">
-                <!-- <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
-                                      NumberOfTapsRequired="1"/>
-                </Image.GestureRecognizers> -->
-            </Image>
 
-            <Label Text="Founded by: " Font="Bold" FontAttributes="Bold" TextColor="White"/>
+                <Image x:Name="imageMain" Aspect="AspectFit"/>
+
+                <Label Text="Founded by: " Font="Bold" FontAttributes="Bold" TextColor="White"/>
                 <Label Text="Johnny Schillereff" TextColor="White"/>
                 <Label Text="Location: " Font="Bold" FontAttributes="Bold" TextColor="White"/>
                 <Label Text="Costa Mesa, California" TextColor="White"/>
@@ -26,7 +21,7 @@
                                             NumberOfTapsRequired="1"/>
                 </Image.GestureRecognizers>
             </Image>
-                    <Label HorizontalTextAlignment="Center" Text="Nyjah Huston" FontAttributes="Bold" TextColor="White"/>
+                    <Label HorizontalTextAlignment="Center" Text="Nyjah Huston" Font="Bold" TextColor="White"/>
 
                 <!-- EVAN SMITH -->
             <Image x:Name="pro2" Aspect="AspectFit" >
@@ -35,7 +30,7 @@
                                         NumberOfTapsRequired="1"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Label HorizontalTextAlignment="Center" Text="Evan Smith" FontAttributes="Bold" TextColor="White"/>
+            <Label HorizontalTextAlignment="Center" Text="Evan Smith" Font="Bold" TextColor="White"/>
 
                 <!-- TYSON PETERSON -->
             <Image x:Name="pro3" Aspect="AspectFit" >
@@ -44,7 +39,7 @@
                                         NumberOfTapsRequired="1"/>
                     </Image.GestureRecognizers>
                 </Image>
-            <Label HorizontalTextAlignment="Center" Text="Tyson Peterson" FontAttributes="Bold" TextColor="White"/>
+            <Label HorizontalTextAlignment="Center" Text="Tyson Peterson" Font="Bold" TextColor="White"/>
 
                 <!-- MASON SILVA -->
             <Image x:Name="pro4" Aspect="AspectFit">
@@ -53,7 +48,7 @@
                                         NumberOfTapsRequired="1"/>
                     </Image.GestureRecognizers>
                 </Image>
-            <Label HorizontalTextAlignment="Center" Text="Mason Silva" FontAttributes="Bold" TextColor="White"/>
+            <Label HorizontalTextAlignment="Center" Text="Mason Silva" Font="Bold" TextColor="White"/>
 
                 <!-- MADARS APSE -->
             <Image x:Name="pro5" Aspect="AspectFit">
@@ -62,7 +57,7 @@
                                         NumberOfTapsRequired="1"/>
                     </Image.GestureRecognizers>
                 </Image>
-            <Label HorizontalTextAlignment="Center" Text="Madars Apse" FontAttributes="Bold" TextColor="White"/>
+            <Label HorizontalTextAlignment="Center" Text="Madars Apse" Font="Bold" TextColor="White"/>
 
             </StackLayout>
         </ScrollView>
