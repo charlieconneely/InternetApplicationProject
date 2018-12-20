@@ -20,10 +20,8 @@ namespace IWADProject
 
         private void SetUpImages()
         {
-            // want to add an image to the imageMain object
-            // to do this, need a handle to the resources
             var assembly = typeof(Deathwish);
-            // retrieve image from assembly 
+            
             string myImageName = "IWADProject.Assets.Images.Deathwish.deathwish.jpg";
             imageMain.Source = ImageSource.FromResource(myImageName, assembly);
 

@@ -40,8 +40,7 @@ namespace IWADProject
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            var assembly = typeof(Enjoi);
-
+            
             if (sender.Equals(pro1))
             {
                 Navigation.PushAsync(new LouieBarletta());

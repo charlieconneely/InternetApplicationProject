@@ -20,10 +20,9 @@ namespace IWADProject
 
         private void SetUpImages()
         {
-            // want to add an image to the imageMain object
-            // to do this, need a handle to the resources
+
             var assembly = typeof(Foundation);
-            // retrieve image from assembly 
+            
             string myMainImage = "IWADProject.Assets.Images.Foundation.foundation.jpg";
             imageMain.Source = ImageSource.FromResource(myMainImage, assembly);
 

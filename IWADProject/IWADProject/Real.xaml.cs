@@ -20,10 +20,8 @@ namespace IWADProject
 
         private void SetUpImages()
         {
-
             var assembly = typeof(Real);
 
-            // retrieve image from assembly 
             string myImageName = "IWADProject.Assets.Images.Real.real.jpg";
             imageMain.Source = ImageSource.FromResource(myImageName, assembly);
 

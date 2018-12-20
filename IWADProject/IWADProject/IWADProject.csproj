@@ -97,6 +97,7 @@
     <None Remove="Assets\Images\Foundation\nickProfile\nickSkate1.jpg" />
     <None Remove="Assets\Images\Foundation\nickProfile\nickSkate2.jpg" />
     <None Remove="Assets\Images\Foundation\nickProfile\nickSkate3.jpg" />
+    <None Remove="Assets\Images\MainPage\wallpaper.jpg" />
     <None Remove="Assets\Images\Real\ishodProfile\ishodDeck.jpg" />
     <None Remove="Assets\Images\Real\ishodProfile\ishodSkate1.jpg" />
     <None Remove="Assets\Images\Real\ishodProfile\ishodSkate2.jpg" />
@@ -118,6 +119,10 @@
     <None Remove="Assets\Images\Real\zionProfile\zionSkate2.jpg" />
     <None Remove="Assets\Images\Real\zionProfile\zionSkate3.jpg" />
     <None Remove="Assets\Images\Real\zionwright.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\MainPage\wallpaper.jpg" />
   </ItemGroup>
 
   <ItemGroup>

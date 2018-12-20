@@ -6,17 +6,14 @@
 
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="Center">
-        <!-- Place new controls here -->
-        <!--
-        <Entry x:Name="entUsername" Placeholder="Username"
-               Margin="10,10,10,5" />
-        <Entry x:Name="entPassword" Placeholder="Password"
-               IsPassword="True" Margin="10,10,10,5" />
-        -->
 
-        <Button x:Name="btnLogin" Text="Get Started"
-                Margin="10, 5, 10, 10"
-                Clicked="btnLogin_Clicked"/>
+        <Image x:Name="p1" Aspect="AspectFit">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"
+                                            NumberOfTapsRequired="1"/>
+            </Image.GestureRecognizers>
+        </Image>
+
     </StackLayout>
 
 </ContentPage>

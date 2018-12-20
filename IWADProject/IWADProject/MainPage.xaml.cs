@@ -12,26 +12,21 @@ namespace IWADProject
         public MainPage()
         {
             InitializeComponent();
+            SetUpImages();
         }
 
-        private void btnLogin_Clicked(object sender, EventArgs e)
+        private void SetUpImages()
         {
-            // bool isUserEmpty, isPwdEmpty;
-            //isUserEmpty = String.IsNullOrEmpty(entUsername.Text);
-            //isPwdEmpty = String.IsNullOrEmpty(entPassWord.Text);
+            var assembly = typeof(MainPage);
 
+            string img1 = "IWADProject.Assets.Images.MainPage.wallpaper.jpg";
+            p1.Source = ImageSource.FromResource(img1, assembly);
+
+        }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
             Navigation.PushAsync(new SkateBrands());
-
-            /*
-            if(isUserEmpty || isPwdEmpty)
-            {
-                // message
-            }
-            else
-            {
-                // navigation
-            }
-            */
         }
     }
 }
